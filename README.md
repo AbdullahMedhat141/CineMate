@@ -36,6 +36,6 @@ Whether you're discovering new films or organizing your favorites, CineMate make
 
 ## 📂 Getting Started
 
-1. Clone the repository: git clone https://github.com/yourusername/cinemate.git, then go to the project folder: cd cinemate
+1. Clone the repository: git clone https://github.com/AbdullahMedhat141/CineMate.git, then go to the project folder: cd cinemate
 2. Install Dependencies: npm install
 3. Start the App: npm run dev
