@@ -158,6 +158,7 @@ body {
 }
 .watched-summary-btn:hover {
   background-color: var(--color-red);
+  color: white;
 }
 @media (max-width: 780px) {
   .watched-summary-btn {

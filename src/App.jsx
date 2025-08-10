@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Logo from "./components/navbar/Logo";
 import Search from "./components/navbar/Search";
 import NumResults from "./components/navbar/NumResults";
 import MovieDetails from "./components/main/MovieDetails";
@@ -128,29 +127,4 @@ export default function App() {
       </Main>
     </div>
   );
-}
-{
-  /* <Box>
-          {selectedId ? (
-            <MovieDetails
-              selectedId={selectedId}
-              onCloseMovie={handleCloseMovie}
-              onAddWatched={handleAddWatched}
-              watched={watched}
-              KEY={KEY}
-            />
-          ) : (
-            <WatchedMoviesList
-              watched={watched}
-              onDeleteWatched={handleDeleteWatched}
-            />
-          )}
-          {showSummary && (
-            <WatchedSummary
-              watched={watched}
-              showSummary={showSummary}
-              setShowSummary={setShowSummary}
-            />
-          )}
-        </Box> */
 }
