@@ -20,6 +20,8 @@ export default function App() {
   const [error, setError] = useState("");
   const [selectedId, setSelectedId] = useState(null);
   const [showSummary, setShowSummary] = useState(false);
+
+  //lazy evaluation, the function must be pure and take no arguments
   const [watched, setWatched] = useState(function () {
     const storedValue = localStorage.getItem("watched");
     return JSON.parse(storedValue);
